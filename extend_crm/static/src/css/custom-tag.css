@@ -1,0 +1,7 @@
+.custom-tag {
+    display: inline-block;
+    margin-right: 5px; /* Espacio entre cada palabra */
+    border-radius: 50%; /* Para crear círculos */
+    background-color: #ff0000; /* Color de fondo del círculo */
+    padding: 5px; /* Espacio dentro del círculo */
+}

@@ -1,0 +1,14 @@
+<odoo>
+  <data noupdate="1">
+    <record id="ir_cron_validate_date" model="ir.cron">
+      <field name="name">Calculo campo Duracion desde la aprobación en el lead</field>
+      <field name="model_id" ref="crm.model_crm_lead"/>
+      <field name="state">code</field>
+      <field name="code">model._cron_update_duration_since_approved</field>
+      <field name="user_id" ref="base.user_root"/>
+      <field name="interval_number">5</field>
+      <field name="interval_type">minutes</field>
+      <field name="active" eval="True"/>
+    </record>
+  </data>
+</odoo>
